@@ -26,7 +26,7 @@ require 'sax-machine'
 'container',
 'did',
 'accessrestrict',
-'c01',
+'components',
 
 'acqinfo',
 'custodhist',
