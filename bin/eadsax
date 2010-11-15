@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'eadsax'
+require 'trollop'
+require 'pp'
+
+filename = 'ua105_010' #mc00270
+
+ead = Eadsax::Ead.parse(File.read("/home/jason/code/scrc/data/ead/#{filename}.xml"))
+
+#spacer = '     '
+#ead.archdesc.dsc.c01s.each do |c01|
+#  puts "c01"
+#  puts c01.identifier
+#  puts c01.level
+#  puts c01.did.unittitle
+#  c01.c02s.each do |c02|
+#    puts spacer + "c02"
+#    puts spacer + c02.identifier
+#    puts spacer + c02.level
+#    puts spacer + c02.did.unittitle
+#  end
+#  puts;puts
+#end
+
+#pp ead
+pp ead.archdesc
+
