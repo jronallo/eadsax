@@ -4,25 +4,45 @@ require 'eadsax'
 require 'trollop'
 require 'pp'
 
-filename = 'ua105_010' #mc00270
+opts = Trollop::options do
+  banner <<-EOS
+This script take an EAD XML or directory full of EAD XML and outputs the pretty
+printed inspection of parsing it.
 
-ead = Eadsax::Ead.parse(File.read("/home/jason/code/scrc/data/ead/#{filename}.xml"))
+Usage:
+  eadsax --file ead.xml
+  eadsax --directory /path/to/eads/
 
-#spacer = '     '
-#ead.archdesc.dsc.c01s.each do |c01|
-#  puts "c01"
-#  puts c01.identifier
-#  puts c01.level
-#  puts c01.did.unittitle
-#  c01.c02s.each do |c02|
-#    puts spacer + "c02"
-#    puts spacer + c02.identifier
-#    puts spacer + c02.level
-#    puts spacer + c02.did.unittitle
-#  end
-#  puts;puts
-#end
+where options are:
+EOS
+  opt :file, 'Takes an EAD XML file, parses it and outputs the pretty print inspection.',
+    :type => String
+  opt :directory, 'Given a directory, parses all the EAD XML within and outputs the pretty print inspection for each.',
+    :type => String
+end
 
-#pp ead
-pp ead.archdesc
+if !opts[:file] and !opts[:directory]
+  Trollop::die :file, 'Must specify either file or directory to process.'
+end
+
+if opts[:file] and opts[:directory]
+  Trollop::die :file, 'May only specify file or directory to process.'
+end
+
+if opts[:file]
+  if !File.exists?(opts[:file])
+    Trollop::die :file, 'File does not exist.'
+  end
+  files = [opts[:file]]
+elsif opts[:directory]
+  if !File.exists?(opts[:directory])
+    Trollop::die :directory, 'Directory does not exist.'
+  end
+  files = Dir.glob(File.join(opts[:directory], '*.xml'))
+end
+
+files.each do |file|
+  ead = Eadsax::Ead.parse(File.read(file))
+  pp ead
+end
 

@@ -1,11 +1,22 @@
 require 'rubygems'
 require 'sax-machine'
 
-['chronitem',
+[
+'list',
+'chronitem',
 'chronlist',
 'controlaccess',
 'origination',
-'list',
+
+
+'change',
+'revisiondesc',
+'processinfo',
+'separatedmaterial',
+'appraisal',
+'bibliography',
+'accruals',
+'altformavail',
 'userestrict',
 'physdesc',
 'prefercite',
@@ -14,9 +25,11 @@ require 'sax-machine'
 'scopecontent',
 'container',
 'did',
-'c01',
 'accessrestrict',
+'c01',
+
 'acqinfo',
+'custodhist',
 'arrangement',
 'bioghist',
 

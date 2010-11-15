@@ -1,15 +1,21 @@
 module Eadsax
-  class Userestrict
+  class Bibliography
     include SAXMachine
     element :address
+    element :archref
+    element :bibliography, :class => Bibliography
+    element :bibref
     element :blockquote
     element :chronlist, :class => Chronlist
+    element :extref
     element :head
-    elements :list, :as => :lists, :class => List
+    element :linkgrp
+    element :list, :class => List
     elements :note, :as => :notes
     elements :p, :as => :ps
+    element :ref
     element :table
-    element :userestrict
+    element :title
   end
 end
 

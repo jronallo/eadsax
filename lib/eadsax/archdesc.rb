@@ -5,15 +5,15 @@ module Eadsax
     element :dsc, :class => Dsc
 
     element :accessrestrict, :class => Accessrestrict
-    element :accruals
+    element :accruals, :class => Accruals
     element :acqinfo, :class => Acqinfo
-    element :altformavail
-    element :appraisal
+    element :altformavail, :class => Altformavail
+    element :appraisal, :class => Appraisal
     element :arrangement, :class => Arrangement
-    element :bibliography
+    element :bibliography, :class => Bibliography
     element :bioghist, :class => Bioghist
     element :controlaccess, :class => Controlaccess
-    element :custodhist
+    element :custodhist, :class => Custodhist
     element :dao
     element :daogrp
     element :descgrp
@@ -25,11 +25,11 @@ module Eadsax
     element :otherfindaid
     element :phystech
     element :prefercite, :class => Prefercite
-    element :processinfo
+    element :processinfo, :class => Processinfo
     element :relatedmaterial, :class => Relatedmaterial
     element :runner
     element :scopecontent, :class => Scopecontent
-    element :separatedmaterial
+    element :separatedmaterial, :class => Separatedmaterial
     element :userestrict, :class => Userestrict
 
   end

@@ -3,11 +3,11 @@ module Eadsax
     include SAXMachine
     element :address
     element :blockquote
-    element :chronlist
+    element :chronlist, :class => Chronlist
     element :head
-    element :list
+    element :list, :class => List
     element :note
-    element :p
+    elements :p, :as => :ps
     element :table
   end
 end

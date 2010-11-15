@@ -4,7 +4,7 @@ module Eadsax
     element :eadid
     element :filedesc, :class => Filedesc
     element :profiledesc, :class => Profiledesc
-    element :revisiondesc
+    element :revisiondesc, :class => Revisiondesc
   end
 end
 

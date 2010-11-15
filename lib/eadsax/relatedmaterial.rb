@@ -9,9 +9,9 @@ module Eadsax
       element :extref
       element :head
       element :linkgrp
-      element :list, :class => List
-      element :note
-      element :p
+      elements :list, :as => :lists, :class => List
+      elements :note, :as => :notes
+      elements :p, :as => :ps
       element :ref
       element :relatedmaterial
       element :table

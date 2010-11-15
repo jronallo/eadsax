@@ -2,7 +2,7 @@ module Eadsax
   class Scopecontent
     include SAXMachine
     element :head
-    element :p
+    elements :p, :as => :ps
   end
 end
 

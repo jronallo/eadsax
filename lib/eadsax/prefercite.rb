@@ -5,10 +5,10 @@ module Eadsax
     element :blockquote
     element :chronlist
     element :head
-    element :list
-    element :note
-    element :p
-    element :prefercite
+    elements :list, :as => :lists, :class => List
+    elements :note, :as => :notes
+    elements :p, :as => :ps
+    element :prefercite, :class => Prefercite
     element :table
   end
 end

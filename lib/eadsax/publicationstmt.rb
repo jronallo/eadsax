@@ -4,7 +4,7 @@ module Eadsax
     element :address
     element :date
     element :num
-    element :p
+    elements :p, :as => :ps
     element :publisher
   end
 end

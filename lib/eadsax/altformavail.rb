@@ -1,15 +1,15 @@
 module Eadsax
-  class Userestrict
+  class Altformavail
     include SAXMachine
     element :address
+    element :altformavail, :class => Altformavail
     element :blockquote
     element :chronlist, :class => Chronlist
     element :head
-    elements :list, :as => :lists, :class => List
-    elements :note, :as => :notes
+    element :list, :class => List
+    element :note
     elements :p, :as => :ps
     element :table
-    element :userestrict
   end
 end
 

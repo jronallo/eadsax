@@ -1,5 +1,5 @@
 module Eadsax
-  class Userestrict
+  class Processinfo
     include SAXMachine
     element :address
     element :blockquote
@@ -8,8 +8,8 @@ module Eadsax
     elements :list, :as => :lists, :class => List
     elements :note, :as => :notes
     elements :p, :as => :ps
+    element :processinfo, :class => Processinfo
     element :table
-    element :userestrict
   end
 end
 

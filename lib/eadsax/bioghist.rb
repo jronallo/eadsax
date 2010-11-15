@@ -9,8 +9,8 @@ module Eadsax
     element :daogrp
     element :head
     element :list
-    element :note
-    element :p
+    elements :note, :as => :notes
+    elements :p, :as => :ps
     element :table
   end
 end
