@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ead xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <eadheader findaidstatus="Completed" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+        <eadid url="http://www.lib.ncsu.edu/findingaids/mc00035">mc00035</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Guide to the EAD SAX Papers, 
+                    <date calendar="gregorian" era="ce">2009-2010</date>
+                    <num>LUE 00042</num>
+                </titleproper>
+                <author>Finding aid prepared by Jason Ronallo; Processed by: Paul Dix, April 2009</author>
+                <sponsor>The processing and encoding of this collection is supported by friends like you.</sponsor>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Special Collections Research Center</publisher>
+                <date>2010</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>This finding aid was produced using the Archivists' Toolkit
+                <date>2010-01-06T16:51-0500</date>
+            </creation>
+            <langusage>Finding aid written in 
+                <language encodinganalog="language">English</language></langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection">
+        <did>
+            <unittitle>Guide to the EAD SAX Papers</unittitle>
+            <unitid>LUE 00042</unitid>
+            <repository>
+                <corpname>Special Collections Research Center</corpname>
+            </repository>
+            <langmaterial>
+                <language langcode="eng"/>
+            </langmaterial>
+            <physdesc>
+                <extent>40.0 Linear feet</extent>
+                <extent>102 archival boxes</extent>
+            </physdesc>
+            <unitdate normal="2009/2010" type="inclusive">2009-2010</unitdate>
+            <abstract id="ref2" label="Abstract">Collection includes diaries.</abstract>
+            <physloc id="ref3" label="Location">For current information on the location of these materials, please consult the 
+                <extref ns2:type="simple" ns2:href="http://www.lib.ncsu.edu/specialcollections/research/requestinformation.html">Special Collections Research Center Reference Staff</extref>.
+            </physloc>
+            <physdesc id="ref1" label="General Physical Description note">102 archival boxes</physdesc>
+        </did>
+        <bioghist id="ref4">
+            <head>Biographical Note</head>
+            <p>Dr. 
+                <persname>Paul Dix</persname> was born in 1868 in 
+                <geogname>Darmstadt, Germany</geogname>. The grandson of a chief forester, Schenck studied forestry at 
+                <corpname normal="Tubingen University">Tubingen</corpname> University and entered the state forest service in 
+                <geogname>Hessen</geogname> in 1890.</p>
+            <p>In 1898, with Vanderbilt's permission, the 
+                <corpname>Biltmore Forest School</corpname> (BFS) opened.</p>
+           <chronlist>
+                <head>Chronology</head>
+                <chronitem>
+                    <date>1868</date>
+                    <event>Born, Darmstadt Germany</event>
+                </chronitem>
+                <chronitem>
+                    <date>1886 - 1891</date>
+                    <event>Studied forestry in Tubingen and Giessen Universities</event>
+                </chronitem>
+            </chronlist>
+        </bioghist>
+        <scopecontent id="ref7">
+            <head>Scope and Content</head>
+            <p>This collection provides a detailed look into the personal and professional life of 
+                <persname>Paul Dix</persname>, the founder of the first American school of forestry. </p>
+        </scopecontent>
+        <arrangement id="ref8">
+            <head>Collection Organization</head>
+            <p>The collection is divided into 2 series. The first of these is 
+                <ref ns2:show="embed" ns2:href="" target="ref14">Diaries</ref>.
+            </p>
+        </arrangement>
+        <accessrestrict id="ref9">
+            <head>Restrictions to Access</head>
+            <p>This collection is open for research; access requires at least 24 hours advance notice.</p>
+        </accessrestrict>
+        <acqinfo id="ref10">
+            <head>Acquisitions Information</head>
+            <p>The Carl Alwin Schenck Papers was received in a number of accessions from 1959 - 1990.</p>
+        </acqinfo>
+        <prefercite id="ref11">
+            <head>Preferred Citation</head>
+            <p>[Identification of Item], Carl Alwin Schenck Papers, MC 35, Special Collections Research Center, North Carolina State University Libraries, Raleigh, North Carolina.</p>
+        </prefercite>
+        <userestrict id="ref12">
+            <head>Copyright Notice</head>
+            <p>Who knows who owns copyright to this collection.</p>
+        </userestrict>
+        <controlaccess>
+            <corpname rules="aacr" source="naf">Biltmore Forest School.</corpname>
+            <persname rules="aacr" source="naf">Schenck, Carl Alwin, 1868-1955</persname>
+            <geogname source="lcnaf">Biltmore Forest (N.C.)</geogname>
+            <genreform source="aat">Diaries</genreform>
+            <subject source="lcsh">Forest products industry--North Carolina</subject>
+        </controlaccess>
+        <dsc>
+            <c01 id="ref14" level="series">
+                <did>
+                    <unittitle>Diaries</unittitle>
+                    <unitid>MC 00035 Series 01</unitid>
+                    <physdesc>
+                        <extent>6.0 Linear feet</extent>
+                    </physdesc>
+                    <unitdate normal="1890/1954" type="inclusive">1890 - 1954</unitdate>
+                    <physdesc id="ref15" label="General Physical Description note">12 archival boxes</physdesc>
+                </did>
+                <scopecontent id="ref74">
+                    <head>Scope and Contents note</head>
+                    <p>The first series of the collection, the Diaries, records personal notes from 
+                        <corpname>Biltmore Estate</corpname></p>
+                </scopecontent>
+                <c02 id="ref16" level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <container id="cid130634" type="Box" label="Mixed materials">1</container>
+                        <container parent="cid130634" type="Folder">1</container>
+                        <unitdate>1890 - 1895</unitdate>
+                    </did>
+                    <dao ns2:actuate="onRequest" ns2:show="embed" ns2:title="Digital Images" ns2:role="" ns2:href="http://www.lib.ncsu.edu/specialcollections/forestry/schenck/series_i/1890_1895/d1890_1895.html">
+                        <daodesc>
+                            <p>Digital Images</p>
+                        </daodesc>
+                    </dao>
+                </c02>
+                <c02 id="ref17" level="file">
+                    <did>
+                        <unittitle></unittitle>
+                        <container id="cid130632" type="Box" label="Mixed materials">1</container>
+                        <container parent="cid130632" type="Folder">2</container>
+                        <unitdate>1895</unitdate>
+                    </did>
+                </c02>
+            </c01>
+            <c01 id="ref75" level="series">
+                <did>
+                    <unittitle>Correspondence</unittitle>
+                    <unitid>MC 00035 Series 02</unitid>
+                    <physdesc>
+                        <extent>10.5 Linear feet</extent>
+                    </physdesc>
+                    <unitdate normal="1895/1955" type="inclusive">1895 - 1955</unitdate>
+                    <physdesc id="ref76" label="General Physical Description note">21 archival boxes</physdesc>
+                </did>
+                <scopecontent id="ref520">
+                    <head>Scope and Contents note</head>
+                    <p>The Correspondence series includes all letters.</p>
+                </scopecontent>
+                <c02 id="ref77" level="subseries">
+                    <did>
+                        <unittitle>Professional</unittitle>
+                    </did>
+                    <c03 id="ref78" level="subseries">
+                        <did>
+                            <unittitle>
+                                <corpname>Biltmore Estate and Forest</corpname></unittitle>
+                        </did>
+                        <c04 id="ref79" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130554" type="Box" label="Mixed materials">13</container>
+                                <container parent="cid130554" type="Folder">1</container>
+                                <unitdate>1895 - October, 1908</unitdate>
+                            </did>
+                            <dao ns2:actuate="onRequest" ns2:show="embed" ns2:title="Digital Images" ns2:role="" ns2:href="http://www.lib.ncsu.edu/specialcollections/forestry/schenck/series_ii/bef/1895_1908_oct/d1895_1908_oct.html">
+                                <daodesc>
+                                    <p>Digital Images</p>
+                                </daodesc>
+                            </dao>
+                        </c04>
+                        <c04 id="ref80" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130552" type="Box" label="Mixed materials">13</container>
+                                <container parent="cid130552" type="Folder">2</container>
+                                <unitdate>November 1, 1908 - November 15, 1908</unitdate>
+                            </did>
+                            <dao ns2:actuate="onRequest" ns2:show="embed" ns2:title="Digital Images" ns2:role="" ns2:href="http://www.lib.ncsu.edu/specialcollections/forestry/schenck/series_ii/bef/1908_nov_01_15/d1908_nov_01_15.html">
+                                <daodesc>
+                                    <p>Digital Images</p>
+                                </daodesc>
+                            </dao>
+                        </c04>
+                    </c03>
+                </c02>
+                <c02 id="ref97" level="subseries">
+                    <did>
+                        <unittitle>Forestry Colleagues</unittitle>
+                    </did>
+                    <c03 id="ref98" level="subseries">
+                        <did>
+                            <unittitle>
+                                <persname>Brandis, Dietrich</persname></unittitle>
+                        </did>
+                        <c04 id="ref99" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130528" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130528" type="Folder">1</container>
+                                <unitdate>1895 - 1899</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref100" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130527" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130527" type="Folder">2</container>
+                                <unitdate>1900 - 1907</unitdate>
+                            </did>
+                        </c04>
+                    </c03>
+                    <c03 id="ref101" level="file">
+                        <did>
+                            <unittitle>
+                                <persname>Fernow, Bernhard</persname></unittitle>
+                            <container id="cid130526" type="Box" label="Mixed materials">14</container>
+                            <container parent="cid130526" type="Folder">3</container>
+                            <unitdate>1896</unitdate>
+                        </did>
+                    </c03>
+                    <c03 id="ref102" level="subseries">
+                        <did>
+                            <unittitle>
+                                <persname>Olmstead, Frederick Law</persname></unittitle>
+                        </did>
+                        <c04 id="ref103" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130525" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130525" type="Folder">4</container>
+                                <unitdate>1907 - 1949</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref104" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130524" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130524" type="Folder">5</container>
+                                <unitdate>1950</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref105" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130523" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130523" type="Folder">6</container>
+                                <unitdate>1951</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref106" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130522" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130522" type="Folder">7</container>
+                                <unitdate>1952</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref107" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130521" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130521" type="Folder">8</container>
+                                <unitdate>1953 - 1954</unitdate>
+                            </did>
+                        </c04>
+                    </c03>
+                    <c03 id="ref108" level="subseries">
+                        <did>
+                            <unittitle>
+                                <persname>Pinchot, Gifford</persname></unittitle>
+                        </did>
+                        <c04 id="ref109" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130520" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130520" type="Folder">9</container>
+                                <unitdate>1895 - 1899</unitdate>
+                            </did>
+                        </c04>
+                        <c04 id="ref110" level="file">
+                            <did>
+                                <unittitle></unittitle>
+                                <container id="cid130519" type="Box" label="Mixed materials">14</container>
+                                <container parent="cid130519" type="Folder">10</container>
+                                <unitdate>1900 - 1908</unitdate>
+                            </did>
+                        </c04>
+                    </c03>
+                    <c03 id="ref111" level="file">
+                        <did>
+                            <unittitle>
+                                <persname>Price, Overton</persname></unittitle>
+                            <container id="cid130518" type="Box" label="Mixed materials">14</container>
+                            <container parent="cid130518" type="Folder">11</container>
+                        </did>
+                    </c03>
+                    <c03 id="ref112" level="file">
+                        <did>
+                            <unittitle>
+                                <persname>Schlich, William</persname></unittitle>
+                            <container id="cid130517" type="Box" label="Mixed materials">14</container>
+                            <container parent="cid130517" type="Folder">12</container>
+                        </did>
+                    </c03>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

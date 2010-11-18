@@ -51,3 +51,9 @@ module Eadsax
 
 end
 
+class String
+  def clean
+    self.gsub(/\n/, ' ').gsub(/\s+/, ' ')
+  end
+end
+
