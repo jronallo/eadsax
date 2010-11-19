@@ -1,11 +1,11 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "C01" do
+describe "Physdesc" do
   before(:all) do
-    @c01s = @ead.archdesc.dsc.c01s
+    @physdesc = @ead.archdesc.did.physdesc
   end
   it "should be present" do
-    @c01s.first.should be_a_kind_of(Eadsax::C01)
+    @physdesc.should be_a_kind_of(Eadsax::Physdesc)
   end
 end
 

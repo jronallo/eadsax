@@ -1,7 +1,7 @@
 module Eadsax
   class Chronlist
     include SAXMachine
-    element :chronitem, :class => Chronitem
+    elements :chronitem, :as => :chronitems, :class => Chronitem
     element :head
     element :listhead
   end
