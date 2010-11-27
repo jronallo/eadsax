@@ -3,7 +3,7 @@ module Eadsax
     include SAXMachine
     element :num
     element :p
-    element :titleproper
+    element :titleproper, :class => Titleproper
   end
 end
 
