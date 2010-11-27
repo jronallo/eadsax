@@ -3,7 +3,7 @@ module Eadsax
     include SAXMachine
     elements :c01, :as => :c01s, :class => C01
 
-    element :address
+    element :address, :class => Address
     element :blockquote
     element :c
     element :chronlist, :class => Chronlist

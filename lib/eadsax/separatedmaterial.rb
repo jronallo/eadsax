@@ -1,7 +1,7 @@
 module Eadsax
   class Separatedmaterial
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :archref
     element :bibref
     element :blockquote

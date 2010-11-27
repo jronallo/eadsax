@@ -1,7 +1,7 @@
 module Eadsax
   class Prefercite
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :blockquote
     element :chronlist
     element :head

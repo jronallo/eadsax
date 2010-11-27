@@ -1,7 +1,7 @@
 module Eadsax
   class Publicationstmt
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :date
     element :num
     elements :p, :as => :ps

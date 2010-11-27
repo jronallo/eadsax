@@ -2,7 +2,7 @@ module Eadsax
   class Custodhist
     include SAXMachine
     element :acqinfo, :class => Acqinfo
-    element :address
+    element :address, :class => Address
     element :blockquote
     element :chronlist, :class => Chronlist
     element :custodhist, :class => Custodhist

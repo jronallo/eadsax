@@ -1,7 +1,7 @@
 module Eadsax
   class Bibliography
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :archref
     element :bibliography, :class => Bibliography
     element :bibref

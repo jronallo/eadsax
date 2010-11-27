@@ -1,7 +1,7 @@
 module Eadsax
   class Acqinfo
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :blockquote
     element :chronlist, :class => Chronlist
     element :head

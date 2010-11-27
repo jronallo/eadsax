@@ -1,7 +1,7 @@
 module Eadsax
   class Appraisal
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :appraisal
     element :blockquote
     element :chronlist, :class => Chronlist

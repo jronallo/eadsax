@@ -5,9 +5,10 @@ require 'sax-machine'
 'list',
 'chronitem',
 'chronlist',
-'controlaccess',
-'origination',
 
+'origination',
+'address',
+'controlaccess',
 
 'change',
 'revisiondesc',

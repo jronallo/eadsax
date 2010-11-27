@@ -1,7 +1,7 @@
 module Eadsax
   class Altformavail
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :altformavail, :class => Altformavail
     element :blockquote
     element :chronlist, :class => Chronlist
