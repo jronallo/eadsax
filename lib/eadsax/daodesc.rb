@@ -1,5 +1,5 @@
 module Eadsax
-  class Dao
+  class Daodesc
     include SAXMachine
     element :address, :class => Address
     element :blockquote
@@ -7,7 +7,7 @@ module Eadsax
     element :head
     element :list, :class => List
     elements :note, :as => :notes
-    elements :p, :as => ps
+    elements :p, :as => :ps
     element :table
   end
 end

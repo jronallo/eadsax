@@ -5,7 +5,7 @@ module Eadsax
     element :archref
     element :bibliography, :class => Bibliography
     element :bibref
-    element :blockquote
+    element :blockquote, :class => Blockquote
     element :chronlist, :class => Chronlist
     element :extref
     element :head
@@ -14,7 +14,7 @@ module Eadsax
     elements :note, :as => :notes
     elements :p, :as => :ps
     element :ref
-    element :table
+    element :table, :class => Table
     element :title
   end
 end

@@ -2,14 +2,33 @@ module Eadsax
   module Componentpart
     def self.included(base_class)
       base_class.class_eval do
-        element :did, :class => Did
         element :accessrestrict, :class => Accessrestrict
         element :accruals, :class => Accruals
+        element :acqinfo, :class => Acqinfo
+        element :altformavail, :class => Altformavail
+        element :appraisal, :class => Appraisal
+        element :arrangement, :class => Arrangement
+        element :bibliography, :class => Bibliography
+        element :bioghist, :class => Bioghist
         element :controlaccess, :class => Controlaccess
-        element :dao
+        element :custodhist, :class => Custodhist
+        element :dao, :class => Dao
+        element :did, :class => Did
+        element :dsc, :class => Dsc
+        element :fileplan, :class => Fileplan
+        element :head
+        element :index, :class => Index
         elements :note, :as => :notes, :class => Note
         element :odd, :class => Odd
+        element :originalsloc, :class => Originalsloc
+        element :otherfindaid, :class => Otherfindaid
+        element :phystech, :class => Phystech
+        element :prefercite, :class => Prefercite
+        element :processinfo, :class => Processinfo
+        element :relatedmaterial, :class => Relatedmaterial
         element :scopecontent, :class => Scopecontent
+        element :separatedmaterial, :class => Separatedmaterial
+        element :thead, :class => Thead
         element :userestrict, :class => Userestrict
       end
     end

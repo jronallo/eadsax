@@ -19,12 +19,15 @@ module Eadsax
   autoload :Container, "eadsax/container"
   autoload :Controlaccess, "eadsax/controlaccess"
   autoload :Custodhist, "eadsax/custodhist"
+  autoload :Dao, 'eadsax/dao'
+  autoload :Daodesc, 'eadsax/daodesc'
   autoload :Defitem, "eadsax/defitem"
   autoload :Did, "eadsax/did"
   autoload :Div, "eadsax/div"
   autoload :Dsc, "eadsax/dsc"
   autoload :Eadheader, "eadsax/eadheader"
   autoload :Filedesc, "eadsax/filedesc"
+  autoload :Fileplan, 'eadsax/fileplan'
   autoload :Index, "eadsax/index"
   autoload :Indexentry, "eadsax/indexentry"
   autoload :List, "eadsax/list"
@@ -56,9 +59,11 @@ module Eadsax
   autoload :Titleproper, "eadsax/titleproper"
   autoload :Titlestmt, "eadsax/titlestmt"
   autoload :Userestrict, "eadsax/userestrict"
+
+  autoload :C01, 'eadsax/components'
+
 end
 
-require 'eadsax/components'
 require 'eadsax/ead'
 
 class String

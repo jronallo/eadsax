@@ -14,11 +14,11 @@ module Eadsax
     element :bioghist, :class => Bioghist
     element :controlaccess, :class => Controlaccess
     element :custodhist, :class => Custodhist
-    element :dao
+    element :dao, :class => Dao
     element :daogrp
     element :descgrp
-    element :fileplan
-    element :index
+    element :fileplan, :class => Fileplan
+    element :index, :class => Index
     element :note, :class => Note
     element :odd, :class => Odd
     element :originalsloc, :class => Originalsloc
