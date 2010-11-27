@@ -3,14 +3,14 @@ module Eadsax
     include SAXMachine
     element :acqinfo, :class => Acqinfo
     element :address, :class => Address
-    element :blockquote
+    element :blockquote, :class => Blockquote
     element :chronlist, :class => Chronlist
     element :custodhist, :class => Custodhist
     element :head
     elements :list, :as => :lists, :class => List
-    elements :note, :as => :notes
+    elements :note, :as => :notes, :class => Note
     elements :p, :as => :ps
-    element :table
+    element :table, :class => Table
   end
 end
 

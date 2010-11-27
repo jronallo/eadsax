@@ -26,6 +26,7 @@ module Eadsax
   autoload :Div, "eadsax/div"
   autoload :Dsc, "eadsax/dsc"
   autoload :Eadheader, "eadsax/eadheader"
+  autoload :Editionstmt, 'eadsax/editionstmt'
   autoload :Filedesc, "eadsax/filedesc"
   autoload :Fileplan, 'eadsax/fileplan'
   autoload :Index, "eadsax/index"

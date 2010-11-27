@@ -1,7 +1,7 @@
 module Eadsax
   class Thead
     include SAXMachine
-    element :row
+    element :row, :class => Row
   end
 end
 

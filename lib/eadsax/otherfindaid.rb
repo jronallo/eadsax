@@ -1,7 +1,7 @@
 module Eadsax
   class Otherfindaid
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :archref
     element :bibref
     element :blockquote, :class => Blockquote
@@ -14,7 +14,7 @@ module Eadsax
     element :otherfindaid, :class => Otherfindaid
     element :p
     element :ref
-    element :table
+    element :table, :class => Table
     element :title
   end
 end

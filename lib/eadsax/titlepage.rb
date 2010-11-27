@@ -1,7 +1,7 @@
 module Eadsax
   class Titlepage
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :author
     element :bibseries
     element :blockquote, :class => Blockquote
@@ -16,7 +16,7 @@ module Eadsax
     element :sponsor
     element :subtitle
     element :table, :class => Table
-    element :titleproper
+    element :titleproper, :class => Titleproper
   end
 end
 

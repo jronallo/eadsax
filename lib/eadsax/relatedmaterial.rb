@@ -4,8 +4,8 @@ module Eadsax
       element :address, :class => Address
       element :archref
       element :bibref
-      element :blockquote
-      element :chronlist
+      element :blockquote, :class => Blockquote
+      element :chronlist, :class => Chronlist
       element :extref
       element :head
       element :linkgrp
@@ -13,8 +13,8 @@ module Eadsax
       elements :note, :as => :notes
       elements :p, :as => :ps
       element :ref
-      element :relatedmaterial
-      element :table
+      element :relatedmaterial, :class => Relatedmaterial
+      element :table, :class => Table
       element :title
   end
 end

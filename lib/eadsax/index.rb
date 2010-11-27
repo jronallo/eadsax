@@ -1,7 +1,7 @@
 module Eadsax
   class Index
     include SAXMachine
-    element :address
+    element :address, :class => Address
     element :blockquote, :class => Blockquote
     element :chronlist, :class => Chronlist
     element :head
@@ -11,7 +11,7 @@ module Eadsax
     element :listhead, :class => Listhead
     element :note, :class => Note
     element :p
-    element :table
+    element :table, :class => Table
   end
 end
 

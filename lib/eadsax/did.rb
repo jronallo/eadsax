@@ -4,7 +4,7 @@ module Eadsax
     elements :abstract, :as => :abstracts
     elements :container, :as => :containers#, :class => Container
     elements :container, :value => :type, :as => :container_types#, :class => Container
-    element :dao
+    element :dao, :class => Dao
     element :daogrp
     element :head
     element :langmaterial
