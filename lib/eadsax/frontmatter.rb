@@ -1,7 +1,7 @@
 module Eadsax
   class Frontmatter
     include SAXMachine
-    element :div
+    element :div, :class => Div
     element :titlepage
   end
 end

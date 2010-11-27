@@ -6,7 +6,7 @@ module Eadsax
     element :chronlist, :class => Chronlist
     element :head
     element :list, :class => List
-    element :note
+    element :note, :class => Note
     elements :p, :as => :ps
     element :table
   end

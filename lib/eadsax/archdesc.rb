@@ -19,7 +19,7 @@ module Eadsax
     element :descgrp
     element :fileplan
     element :index
-    element :note
+    element :note, :class => Note
     element :odd
     element :originalsloc
     element :otherfindaid

@@ -1,10 +1,10 @@
 module Eadsax
   class List
     include SAXMachine
-    element :defitem
+    element :defitem, :class => Defitem
     element :head
     element :item
-    element :listhead
+    element :listhead, :class => Listhead
   end
 end
 

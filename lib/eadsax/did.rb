@@ -9,7 +9,7 @@ module Eadsax
     element :head
     element :langmaterial
     element :materialspec
-    element :note
+    element :note, :class => Note
     element :origination, :class => Origination
     element :physdesc, :class => Physdesc
     element :physloc

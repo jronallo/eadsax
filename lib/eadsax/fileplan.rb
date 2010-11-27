@@ -7,7 +7,7 @@ element :chronlist
 element :fileplan
 element :head
 element :list
-element :note
+element :note, :class => Note
 element :p
 element :table
   end

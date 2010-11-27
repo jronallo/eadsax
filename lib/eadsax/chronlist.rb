@@ -3,7 +3,7 @@ module Eadsax
     include SAXMachine
     elements :chronitem, :as => :chronitems, :class => Chronitem
     element :head
-    element :listhead
+    element :listhead, :class => Listhead
   end
 end
 

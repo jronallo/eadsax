@@ -1,13 +1,14 @@
 module Eadsax
-  class Accruals
+  class Div
     include SAXMachine
-    element :address, :class => Address
-    element :blockquote
+    element :address
+    element :blockquote, :class => Blockquote
     element :chronlist, :class => Chronlist
+    element :div, :class => Div
     element :head
     element :list, :class => List
     element :note, :class => Note
-    elements :p, :as => :ps
+    element :p
     element :table
   end
 end
