@@ -13,7 +13,7 @@ module Eadsax
     elements :note, :as => :notes
     elements :p, :as => :ps
     element :table
-    element :thead
+    element :thead, :class => Thead
   end
 end
 

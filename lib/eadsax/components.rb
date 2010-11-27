@@ -7,7 +7,8 @@ module Eadsax
         element :accruals, :class => Accruals
         element :controlaccess, :class => Controlaccess
         element :dao
-        elements :note, :as => :notes
+        elements :note, :as => :notes, :class => Note
+        element :odd, :class => Odd
         element :scopecontent, :class => Scopecontent
         element :userestrict, :class => Userestrict
       end

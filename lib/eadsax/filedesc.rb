@@ -2,9 +2,9 @@ module Eadsax
   class Filedesc
     include SAXMachine
     element :editionstmt
-    element :notestmt
+    element :notestmt, :class => Notestmt
     element :publicationstmt, :class => Publicationstmt
-    element :seriesstmt
+    element :seriesstmt, :class => Seriesstmt
     element :titlestmt, :class => Titlestmt
   end
 end

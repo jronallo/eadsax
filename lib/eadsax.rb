@@ -31,16 +31,28 @@ module Eadsax
   autoload :Listhead, "eadsax/listhead"
   autoload :Namegrp, "eadsax/namegrp"
   autoload :Note, "eadsax/note"
+  autoload :Notestmt, "eadsax/notestmt"
+  autoload :Odd, "eadsax/odd"
+  autoload :Originalsloc, 'eadsax/originalsloc'
   autoload :Origination, "eadsax/origination"
-  autoload :Physdesc, "eadsax/physdesc"
+  autoload :Otherfindaid, "eadsax/otherfindaid"
+#  autoload :Physdesc, "eadsax/physdesc"
+  autoload :Phystech, 'eadsax/phystech'
   autoload :Prefercite, "eadsax/prefercite"
   autoload :Processinfo, "eadsax/processinfo"
   autoload :Profiledesc, "eadsax/profiledesc"
   autoload :Publicationstmt, "eadsax/publicationstmt"
   autoload :Relatedmaterial, "eadsax/relatedmaterial"
+  autoload :Row, 'eadsax/row'
   autoload :Revisiondesc, "eadsax/revisiondesc"
+  autoload :Seriesstmt, 'eadsax/seriesstmt'
   autoload :Scopecontent, "eadsax/scopecontent"
   autoload :Separatedmaterial, "eadsax/separatedmaterial"
+  autoload :Table, 'eadsax/table'
+  autoload :Tbody, 'eadsax/tbody'
+  autoload :Tgroup, 'eadsax/tgroup'
+  autoload :Thead, 'eadsax/thead'
+  autoload :Titlepage, 'eadsax/titlepage'
   autoload :Titleproper, "eadsax/titleproper"
   autoload :Titlestmt, "eadsax/titlestmt"
   autoload :Userestrict, "eadsax/userestrict"

@@ -11,7 +11,7 @@ module Eadsax
     element :materialspec
     element :note, :class => Note
     element :origination, :class => Origination
-    element :physdesc, :class => Physdesc
+    element :physdesc
     element :physloc
     element :repository
     element :unitdate

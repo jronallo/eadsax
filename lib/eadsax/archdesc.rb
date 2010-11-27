@@ -20,10 +20,10 @@ module Eadsax
     element :fileplan
     element :index
     element :note, :class => Note
-    element :odd
-    element :originalsloc
-    element :otherfindaid
-    element :phystech
+    element :odd, :class => Odd
+    element :originalsloc, :class => Originalsloc
+    element :otherfindaid, :class => Otherfindaid
+    element :phystech, :class => Phystech
     element :prefercite, :class => Prefercite
     element :processinfo, :class => Processinfo
     element :relatedmaterial, :class => Relatedmaterial
