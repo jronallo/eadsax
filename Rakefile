@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "eadsax"
   gem.homepage = "http://github.com/jronallo/eadsax"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Parse EAD XML}
+  gem.description = %Q{Parse EAD XML using sax-machine.}
   gem.email = "jronallo@gmail.com"
   gem.authors = ["Jason Ronallo"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
