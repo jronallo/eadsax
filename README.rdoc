@@ -2,10 +2,14 @@
 
 Parses EAD XML into objects using sax-machine.
 
+= Install
+
+  gem install eadsax
+
 = Usage
 
-require 'eadsax'
-ead = Eadsax::Ead.parse(File.read('/path/to/ead.xml'))
+  require 'eadsax'
+  ead = Eadsax::Ead.parse(File.read('/path/to/ead.xml'))
 
 == Copyright
 
