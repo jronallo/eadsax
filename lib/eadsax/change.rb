@@ -2,7 +2,7 @@ module Eadsax
   class Change
     include SAXMachine
     element :date
-    element :item
+    element :item, :class => Item
   end
 end
 

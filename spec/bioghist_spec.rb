@@ -16,8 +16,5 @@ describe "Bioghist" do
     @bioghist.ps.length.should eq(2)
   end
 
-  it "should have content for the paragraphs" do
-    @bioghist.ps.first.clean.should eq("Dr. Paul Dix was born in 1868 in Darmstadt, Germany. The grandson of a chief forester, Schenck studied forestry at Tubingen University and entered the state forest service in Hessen in 1890.")
-  end
 end
 

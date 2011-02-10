@@ -27,10 +27,13 @@ module Eadsax
   autoload :Dsc, "eadsax/dsc"
   autoload :Eadheader, "eadsax/eadheader"
   autoload :Editionstmt, 'eadsax/editionstmt'
+  autoload :Entry, 'eadsax/entry'
+  autoload :Event, 'eadsax/event'
   autoload :Filedesc, "eadsax/filedesc"
   autoload :Fileplan, 'eadsax/fileplan'
   autoload :Index, "eadsax/index"
   autoload :Indexentry, "eadsax/indexentry"
+  autoload :Item, 'eadsax/item'
   autoload :List, "eadsax/list"
   autoload :Listhead, "eadsax/listhead"
   autoload :Namegrp, "eadsax/namegrp"
@@ -40,6 +43,7 @@ module Eadsax
   autoload :Originalsloc, 'eadsax/originalsloc'
   autoload :Origination, "eadsax/origination"
   autoload :Otherfindaid, "eadsax/otherfindaid"
+  autoload :P, 'eadsax/p'
 #  autoload :Physdesc, "eadsax/physdesc"
   autoload :Phystech, 'eadsax/phystech'
   autoload :Prefercite, "eadsax/prefercite"

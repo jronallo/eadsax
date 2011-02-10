@@ -4,7 +4,7 @@
         <eadid url="http://www.lib.ncsu.edu/findingaids/mc00035">mc00035</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>Guide to the EAD SAX Papers, 
+                <titleproper>Guide to the EAD SAX Papers,
                     <date calendar="gregorian" era="ce">2009-2010</date>
                     <num>LUE 00042</num>
                 </titleproper>
@@ -20,7 +20,7 @@
             <creation>This finding aid was produced using the Archivists' Toolkit
                 <date>2010-01-06T16:51-0500</date>
             </creation>
-            <langusage>Finding aid written in 
+            <langusage>Finding aid written in
                 <language encodinganalog="language">English</language></langusage>
         </profiledesc>
     </eadheader>
@@ -40,19 +40,31 @@
             </physdesc>
             <unitdate normal="2009/2010" type="inclusive">2009-2010</unitdate>
             <abstract id="ref2" label="Abstract">Collection includes diaries.</abstract>
-            <physloc id="ref3" label="Location">For current information on the location of these materials, please consult the 
+            <physloc id="ref3" label="Location">For current information on the location of these materials, please consult the
                 <extref ns2:type="simple" ns2:href="http://www.lib.ncsu.edu/specialcollections/research/requestinformation.html">Special Collections Research Center Reference Staff</extref>.
             </physloc>
             <physdesc id="ref1" label="General Physical Description note">102 archival boxes</physdesc>
         </did>
         <bioghist id="ref4">
             <head>Biographical Note</head>
-            <p>Dr. 
-                <persname>Paul Dix</persname> was born in 1868 in 
-                <geogname>Darmstadt, Germany</geogname>. The grandson of a chief forester, Schenck studied forestry at 
-                <corpname normal="Tubingen University">Tubingen</corpname> University and entered the state forest service in 
-                <geogname>Hessen</geogname> in 1890.</p>
-            <p>In 1898, with Vanderbilt's permission, the 
+            <p>Dr.
+                <persname>Paul Dix</persname> was born in 1868 in
+                <geogname>Darmstadt, Germany</geogname>. The grandson of a chief forester, Schenck studied forestry at
+                <corpname normal="Tubingen University">Tubingen</corpname> University and entered the state forest service in
+                <geogname>Hessen</geogname> in 1890.
+              <chronlist>
+                <head>P Chronology</head>
+                <chronitem>
+                    <date>2009</date>
+                    <event>SAX Machine</event>
+                </chronitem>
+                <chronitem>
+                    <date>2010</date>
+                    <event>Mixed Content</event>
+                </chronitem>
+            </chronlist>
+            </p>
+            <p>In 1898, with Vanderbilt's permission, the
                 <corpname>Biltmore Forest School</corpname> (BFS) opened.</p>
            <chronlist>
                 <head>Chronology</head>
@@ -68,12 +80,12 @@
         </bioghist>
         <scopecontent id="ref7">
             <head>Scope and Content</head>
-            <p>This collection provides a detailed look into the personal and professional life of 
+            <p>This collection provides a detailed look into the personal and professional life of
                 <persname>Paul Dix</persname>, the founder of the first American school of forestry. </p>
         </scopecontent>
         <arrangement id="ref8">
             <head>Collection Organization</head>
-            <p>The collection is divided into 2 series. The first of these is 
+            <p>The collection is divided into 2 series. The first of these is
                 <ref ns2:show="embed" ns2:href="" target="ref14">Diaries</ref>.
             </p>
         </arrangement>
@@ -113,7 +125,7 @@
                 </did>
                 <scopecontent id="ref74">
                     <head>Scope and Contents note</head>
-                    <p>The first series of the collection, the Diaries, records personal notes from 
+                    <p>The first series of the collection, the Diaries, records personal notes from
                         <corpname>Biltmore Estate</corpname></p>
                 </scopecontent>
                 <c02 id="ref16" level="file">
@@ -313,3 +325,4 @@
         </dsc>
     </archdesc>
 </ead>
+

@@ -10,7 +10,9 @@ module Eadsax
     element :head
     element :list, :class => List
     elements :note, :as => :notes
-    elements :p, :as => :ps
+
+    elements :p, :as => :ps, :class => P
+
     element :table, :class => Table
   end
 end
