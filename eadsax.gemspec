@@ -5,174 +5,22 @@
 
 Gem::Specification.new do |s|
   s.name = %q{eadsax}
-  s.version = "0.0.0"
-
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.version = "0.0.1"
   s.authors = ["Jason Ronallo"]
-  s.date = %q{2011-02-09}
-  s.default_executable = %q{eadsax}
-  s.description = %q{Parse EAD XML using sax-machine.}
   s.email = %q{jronallo@gmail.com}
-  s.executables = ["eadsax"]
-  s.extra_rdoc_files = [
-    "LICENSE.txt",
-    "README.rdoc"
-  ]
-  s.files = [
-    ".document",
-    ".rspec",
-    ".rvmrc",
-    "Gemfile",
-    "Gemfile.lock",
-    "LICENSE.txt",
-    "README.rdoc",
-    "Rakefile",
-    "VERSION",
-    "bin/eadsax",
-    "lib/eadsax.rb",
-    "lib/eadsax/accessrestrict.rb",
-    "lib/eadsax/accruals.rb",
-    "lib/eadsax/acqinfo.rb",
-    "lib/eadsax/address.rb",
-    "lib/eadsax/altformavail.rb",
-    "lib/eadsax/appraisal.rb",
-    "lib/eadsax/archdesc.rb",
-    "lib/eadsax/arrangement.rb",
-    "lib/eadsax/bibliography.rb",
-    "lib/eadsax/bioghist.rb",
-    "lib/eadsax/blockquote.rb",
-    "lib/eadsax/change.rb",
-    "lib/eadsax/chronitem.rb",
-    "lib/eadsax/chronlist.rb",
-    "lib/eadsax/components.rb",
-    "lib/eadsax/container.rb",
-    "lib/eadsax/controlaccess.rb",
-    "lib/eadsax/custodhist.rb",
-    "lib/eadsax/dao.rb",
-    "lib/eadsax/daodesc.rb",
-    "lib/eadsax/defitem.rb",
-    "lib/eadsax/did.rb",
-    "lib/eadsax/div.rb",
-    "lib/eadsax/dsc.rb",
-    "lib/eadsax/ead.rb",
-    "lib/eadsax/eadheader.rb",
-    "lib/eadsax/editionstmt.rb",
-    "lib/eadsax/filedesc.rb",
-    "lib/eadsax/fileplan.rb",
-    "lib/eadsax/frontmatter.rb",
-    "lib/eadsax/index.rb",
-    "lib/eadsax/indexentry.rb",
-    "lib/eadsax/list.rb",
-    "lib/eadsax/listhead.rb",
-    "lib/eadsax/namegrp.rb",
-    "lib/eadsax/note.rb",
-    "lib/eadsax/notestmt.rb",
-    "lib/eadsax/odd.rb",
-    "lib/eadsax/originalsloc.rb",
-    "lib/eadsax/origination.rb",
-    "lib/eadsax/otherfindaid.rb",
-    "lib/eadsax/phystech.rb",
-    "lib/eadsax/prefercite.rb",
-    "lib/eadsax/processinfo.rb",
-    "lib/eadsax/profiledesc.rb",
-    "lib/eadsax/publicationstmt.rb",
-    "lib/eadsax/relatedmaterial.rb",
-    "lib/eadsax/revisiondesc.rb",
-    "lib/eadsax/row.rb",
-    "lib/eadsax/scopecontent.rb",
-    "lib/eadsax/separatedmaterial.rb",
-    "lib/eadsax/seriesstmt.rb",
-    "lib/eadsax/table.rb",
-    "lib/eadsax/tbody.rb",
-    "lib/eadsax/tgroup.rb",
-    "lib/eadsax/thead.rb",
-    "lib/eadsax/titlepage.rb",
-    "lib/eadsax/titleproper.rb",
-    "lib/eadsax/titlestmt.rb",
-    "lib/eadsax/userestrict.rb",
-    "spec/accessrestrict_spec.rb",
-    "spec/acqinfo_spec.rb",
-    "spec/archdesc_spec.rb",
-    "spec/arrangement_spec.rb",
-    "spec/bioghist_spec.rb",
-    "spec/chronitem_spec.rb",
-    "spec/chronlist_spec.rb",
-    "spec/components_spec.rb",
-    "spec/controlaccess_spec.rb",
-    "spec/did_spec.rb",
-    "spec/dsc_spec.rb",
-    "spec/ead_spec.rb",
-    "spec/eadheader_spec.rb",
-    "spec/eads/example.xml",
-    "spec/eadsax_spec.rb",
-    "spec/filedesc_spec.rb",
-    "spec/prefercite_spec.rb",
-    "spec/profiledesc_spec.rb",
-    "spec/publicationstmt_spec.rb",
-    "spec/scopecontent_spec.rb",
-    "spec/spec_helper.rb",
-    "spec/titleproper_spec.rb",
-    "spec/titlestmt_spec.rb",
-    "spec/userestrict_spec.rb",
-    "watchr.rb"
-  ]
   s.homepage = %q{http://github.com/jronallo/eadsax}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Parse EAD XML}
-  s.test_files = [
-    "spec/accessrestrict_spec.rb",
-    "spec/acqinfo_spec.rb",
-    "spec/archdesc_spec.rb",
-    "spec/arrangement_spec.rb",
-    "spec/bioghist_spec.rb",
-    "spec/chronitem_spec.rb",
-    "spec/chronlist_spec.rb",
-    "spec/components_spec.rb",
-    "spec/controlaccess_spec.rb",
-    "spec/did_spec.rb",
-    "spec/dsc_spec.rb",
-    "spec/ead_spec.rb",
-    "spec/eadheader_spec.rb",
-    "spec/eadsax_spec.rb",
-    "spec/filedesc_spec.rb",
-    "spec/prefercite_spec.rb",
-    "spec/profiledesc_spec.rb",
-    "spec/publicationstmt_spec.rb",
-    "spec/scopecontent_spec.rb",
-    "spec/spec_helper.rb",
-    "spec/titleproper_spec.rb",
-    "spec/titlestmt_spec.rb",
-    "spec/userestrict_spec.rb"
-  ]
+  s.description = %q{Parse EAD XML using sax-machine.}
+  s.rubyforge_project = 'eadsax'
 
-  if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 3
+  s.files         = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.require_paths = ["lib"]
+  s.licenses = ["MIT"]
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<sax-machine>, [">= 0"])
-      s.add_runtime_dependency(%q<trollop>, [">= 0"])
-      s.add_development_dependency(%q<rspec>, ["~> 2.1.0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.5.1"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
-    else
-      s.add_dependency(%q<sax-machine>, [">= 0"])
-      s.add_dependency(%q<trollop>, [">= 0"])
-      s.add_dependency(%q<rspec>, ["~> 2.1.0"])
-      s.add_dependency(%q<bundler>, ["~> 1.0.0"])
-      s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
-      s.add_dependency(%q<rcov>, [">= 0"])
-    end
-  else
-    s.add_dependency(%q<sax-machine>, [">= 0"])
-    s.add_dependency(%q<trollop>, [">= 0"])
-    s.add_dependency(%q<rspec>, ["~> 2.1.0"])
-    s.add_dependency(%q<bundler>, ["~> 1.0.0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.5.1"])
-    s.add_dependency(%q<rcov>, [">= 0"])
-  end
+  s.add_runtime_dependency(%q<sax-machine>)
+  s.add_runtime_dependency(%q<trollop>)
+  s.add_development_dependency(%q<rspec>)  
 end
 
